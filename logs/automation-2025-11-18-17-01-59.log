@@ -1,0 +1,462 @@
+13:24:59.069 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+13:24:59.082 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+13:24:59.183 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+13:24:59.186 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+13:24:59.188 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+13:24:59.258 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+13:24:59.262 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+13:24:59.265 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+13:24:59.326 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+13:24:59.329 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+13:24:59.334 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+13:24:59.417 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+13:24:59.419 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+13:24:59.421 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+13:24:59.466 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+13:24:59.471 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+13:24:59.473 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+13:24:59.551 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+13:24:59.553 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+13:24:59.555 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+13:24:59.605 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+13:24:59.607 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+13:24:59.609 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+13:24:59.659 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+13:24:59.661 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+13:24:59.663 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+13:24:59.726 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+13:24:59.728 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+13:24:59.730 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+13:24:59.783 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+13:24:59.785 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+13:24:59.787 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+13:24:59.840 [main] INFO  testCase.LoginDDT - Test Start
+13:24:59.840 [main] INFO  testCase.LoginDDT - Home Page Open
+13:25:00.910 [main] INFO  testCase.LoginDDT - Login Page Open
+13:25:01.645 [main] INFO  testCase.LoginDDT - Clicked On Login button
+13:25:02.345 [main] INFO  testCase.LoginDDT - Login sucessfull
+13:25:02.948 [main] INFO  testCase.LoginDDT - Clicked On Logout button
+13:25:02.948 [main] INFO  testCase.LoginDDT - Test Completed
+13:25:02.954 [main] INFO  testCase.LoginDDT - Test Start
+13:25:02.954 [main] INFO  testCase.LoginDDT - Home Page Open
+13:25:03.711 [main] INFO  testCase.LoginDDT - Login Page Open
+13:25:04.277 [main] INFO  testCase.LoginDDT - Clicked On Login button
+13:25:24.349 [main] INFO  testCase.LoginDDT - Pass
+13:25:24.349 [main] INFO  testCase.LoginDDT - Test Completed
+13:25:24.352 [main] INFO  testCase.LoginDDT - Test Start
+13:25:24.352 [main] INFO  testCase.LoginDDT - Home Page Open
+13:25:24.915 [main] INFO  testCase.LoginDDT - Login Page Open
+13:25:25.429 [main] INFO  testCase.LoginDDT - Clicked On Login button
+13:25:45.510 [main] INFO  testCase.LoginDDT - Pass
+13:25:45.510 [main] INFO  testCase.LoginDDT - Test Completed
+13:25:45.513 [main] INFO  testCase.LoginDDT - Test Start
+13:25:45.513 [main] INFO  testCase.LoginDDT - Home Page Open
+13:25:45.909 [main] INFO  testCase.LoginDDT - Login Page Open
+13:25:46.190 [main] INFO  testCase.LoginDDT - Clicked On Login button
+13:26:06.305 [main] INFO  testCase.LoginDDT - Pass
+13:26:06.305 [main] INFO  testCase.LoginDDT - Test Completed
+13:26:37.273 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\CODECLOUDS-MDIMRAN\eclipse-workspace\OpenCart0.1\testng.xml"
+13:26:37.682 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\CODECLOUDS-MDIMRAN\eclipse-workspace\OpenCart0.1\testng.xml
+
+13:26:39.738 [main] INFO  testCase.LoginTest - Logger Initialized Successfully!
+13:26:40.622 [main] INFO  testCase.LoginTest - **** Starting VerifyLoginTest *****
+13:26:41.331 [main] INFO  testCase.LoginTest - **** Lgoin page opne*****
+13:26:41.366 [main] DEBUG testCase.LoginTest - **** FAIL VerifyRegisterationTest(Debug) ****java.lang.IllegalArgumentException: Keys to send should be a not null CharSequence
+13:28:50.930 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\CODECLOUDS-MDIMRAN\eclipse-workspace\OpenCart0.1\Master.xml"
+13:28:51.314 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\CODECLOUDS-MDIMRAN\eclipse-workspace\OpenCart0.1\Master.xml
+
+13:28:53.878 [main] INFO  testCase.LoginTest - Logger Initialized Successfully!
+13:28:54.587 [main] INFO  testCase.LoginTest - **** Starting VerifyLoginTest *****
+13:28:55.144 [main] INFO  testCase.LoginTest - **** Lgoin page opne*****
+13:28:55.171 [main] DEBUG testCase.LoginTest - **** FAIL VerifyRegisterationTest(Debug) ****java.lang.IllegalArgumentException: Keys to send should be a not null CharSequence
+13:28:56.376 [main] INFO  testCase.RegisterationTest - Logger Initialized Successfully!
+13:28:57.134 [main] INFO  testCase.RegisterationTest - ***** Start VerifyRegisterationTest ****
+13:28:57.785 [main] INFO  testCase.RegisterationTest - ***** Open Registeration Account Page  ****
+13:29:01.513 [main] INFO  testCase.RegisterationTest - ***** Click on sumbit button ****
+13:29:01.515 [main] INFO  testCase.RegisterationTest - ***** Open Sucessfull Account Page  ****
+13:29:02.895 [main] INFO  testCase.LoginDDT - Logger Initialized Successfully!
+13:29:03.967 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+13:29:03.974 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+13:29:03.977 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+13:29:04.727 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+13:29:04.729 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+13:29:04.731 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+13:29:04.780 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+13:29:04.783 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+13:29:04.785 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+13:29:04.838 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+13:29:04.841 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+13:29:04.843 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+13:29:04.910 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+13:29:04.912 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+13:29:04.914 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+13:29:04.960 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+13:29:04.961 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+13:29:04.963 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+13:29:05.005 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+13:29:05.007 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+13:29:05.009 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+13:29:05.050 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+13:29:05.052 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+13:29:05.053 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+13:29:05.088 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+13:29:05.090 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+13:29:05.092 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+13:29:05.134 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+13:29:05.135 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+13:29:05.137 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+13:29:05.176 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+13:29:05.178 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+13:29:05.180 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+13:29:05.222 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+13:29:05.224 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+13:29:05.225 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+13:29:05.264 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+13:29:05.266 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+13:29:05.267 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+13:29:05.306 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+13:29:05.308 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+13:29:05.310 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+13:29:05.347 [main] INFO  testCase.LoginDDT - Test Start
+13:29:05.347 [main] INFO  testCase.LoginDDT - Home Page Open
+13:29:06.063 [main] INFO  testCase.LoginDDT - Login Page Open
+13:29:06.493 [main] INFO  testCase.LoginDDT - Clicked On Login button
+13:29:07.090 [main] INFO  testCase.LoginDDT - Login sucessfull
+13:29:07.700 [main] INFO  testCase.LoginDDT - Clicked On Logout button
+13:29:07.701 [main] INFO  testCase.LoginDDT - Test Completed
+13:29:07.705 [main] INFO  testCase.LoginDDT - Test Start
+13:29:07.706 [main] INFO  testCase.LoginDDT - Home Page Open
+13:29:08.273 [main] INFO  testCase.LoginDDT - Login Page Open
+13:29:08.690 [main] INFO  testCase.LoginDDT - Clicked On Login button
+13:29:28.771 [main] INFO  testCase.LoginDDT - Pass
+13:29:28.771 [main] INFO  testCase.LoginDDT - Test Completed
+13:29:28.773 [main] INFO  testCase.LoginDDT - Test Start
+13:29:28.773 [main] INFO  testCase.LoginDDT - Home Page Open
+13:29:29.129 [main] INFO  testCase.LoginDDT - Login Page Open
+13:29:29.386 [main] INFO  testCase.LoginDDT - Clicked On Login button
+13:29:49.431 [main] INFO  testCase.LoginDDT - Pass
+13:29:49.432 [main] INFO  testCase.LoginDDT - Test Completed
+13:29:49.434 [main] INFO  testCase.LoginDDT - Test Start
+13:29:49.434 [main] INFO  testCase.LoginDDT - Home Page Open
+13:29:49.798 [main] INFO  testCase.LoginDDT - Login Page Open
+13:29:50.000 [main] INFO  testCase.LoginDDT - Clicked On Login button
+13:30:10.111 [main] INFO  testCase.LoginDDT - Pass
+13:30:10.112 [main] INFO  testCase.LoginDDT - Test Completed
+13:30:13.664 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\CODECLOUDS-MDIMRAN\eclipse-workspace\OpenCart0.1\testng.xml"
+13:30:14.014 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\CODECLOUDS-MDIMRAN\eclipse-workspace\OpenCart0.1\testng.xml
+
+13:30:16.118 [main] INFO  testCase.LoginTest - Logger Initialized Successfully!
+13:30:16.999 [main] INFO  testCase.LoginTest - **** Starting VerifyLoginTest *****
+13:30:17.672 [main] INFO  testCase.LoginTest - **** Lgoin page opne*****
+13:30:17.697 [main] DEBUG testCase.LoginTest - **** FAIL VerifyRegisterationTest(Debug) ****java.lang.IllegalArgumentException: Keys to send should be a not null CharSequence
+13:30:34.495 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\CODECLOUDS-MDIMRAN\eclipse-workspace\OpenCart0.1\testng.xml"
+13:30:34.905 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\CODECLOUDS-MDIMRAN\eclipse-workspace\OpenCart0.1\testng.xml
+
+13:30:37.020 [main] INFO  testCase.LoginTest - Logger Initialized Successfully!
+13:30:37.927 [main] INFO  testCase.LoginTest - **** Starting VerifyLoginTest *****
+13:30:38.703 [main] INFO  testCase.LoginTest - **** Lgoin page opne*****
+13:30:38.801 [main] DEBUG testCase.LoginTest - **** FAIL VerifyRegisterationTest(Debug) ****java.lang.IllegalArgumentException: Keys to send should be a not null CharSequence
+13:30:57.592 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\CODECL~2\AppData\Local\Temp\testng-eclipse-1763689511\testng-customsuite.xml"
+13:30:57.865 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+13:30:57.869 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 1 ms.
+13:30:57.872 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+13:30:57.872 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+13:30:57.874 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+13:30:57.874 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+13:30:57.875 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+13:30:57.875 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+13:30:57.882 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 3 ms.
+13:30:57.896 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 12 ms.
+13:30:57.898 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+13:30:57.898 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+13:30:57.899 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+13:30:57.900 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+13:30:57.900 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+13:30:57.901 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+13:30:57.904 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+13:30:57.904 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+13:30:57.905 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+13:30:57.905 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+13:30:57.911 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+13:30:57.911 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+13:30:57.912 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+13:30:57.912 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+13:30:57.914 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+13:30:57.914 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+13:30:57.917 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+13:30:57.917 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+13:30:57.917 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+13:30:57.918 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+13:30:57.929 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\CODECLOUDS-MDIMRAN\AppData\Local\Temp\testng-eclipse-1763689511\testng-customsuite.xml
+
+13:30:57.955 [main] INFO  org.testng.internal.Utils - [Utils] DynamicGraphHelper.createDynamicGraph() took 6 ms.
+13:30:58.266 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.jq.Main@9ef8eb7: 86 ms
+13:30:58.290 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.FailedReporter@189aa67a: 24 ms
+13:30:58.306 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.XMLReporter@1338fb5: 15 ms
+13:30:58.321 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.EmailableReporter2@39a8312f: 14 ms
+13:30:58.330 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.JUnitReportReporter@2002348: 8 ms
+13:30:58.331 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.internal.ExitCodeListener@5911e990: 0 ms
+13:31:04.547 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\CODECLOUDS-MDIMRAN\eclipse-workspace\OpenCart0.1\testng.xml"
+13:31:04.945 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\CODECLOUDS-MDIMRAN\eclipse-workspace\OpenCart0.1\testng.xml
+
+13:31:07.079 [main] INFO  testCase.LoginTest - Logger Initialized Successfully!
+13:31:08.067 [main] INFO  testCase.LoginTest - **** Starting VerifyLoginTest *****
+13:31:08.773 [main] INFO  testCase.LoginTest - **** Lgoin page opne*****
+13:31:08.813 [main] DEBUG testCase.LoginTest - **** FAIL VerifyRegisterationTest(Debug) ****java.lang.IllegalArgumentException: Keys to send should be a not null CharSequence
+13:35:52.292 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\CODECLOUDS-MDIMRAN\eclipse-workspace\OpenCart0.1\testng.xml"
+13:35:52.567 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\CODECLOUDS-MDIMRAN\eclipse-workspace\OpenCart0.1\testng.xml
+
+13:35:54.039 [main] INFO  testCase.LoginTest - Logger Initialized Successfully!
+13:35:54.751 [main] INFO  testCase.LoginTest - **** Starting VerifyLoginTest *****
+13:35:55.323 [main] INFO  testCase.LoginTest - **** Login page open*****
+13:36:05.339 [main] DEBUG testCase.LoginTest - **** FAIL VerifyRegisterationTest(Debug) ****java.lang.IllegalArgumentException: Keys to send should be a not null CharSequence
+13:36:31.503 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\CODECLOUDS-MDIMRAN\eclipse-workspace\OpenCart0.1\testng.xml"
+13:36:31.822 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\CODECLOUDS-MDIMRAN\eclipse-workspace\OpenCart0.1\testng.xml
+
+13:36:33.549 [main] INFO  testCase.LoginTest - Logger Initialized Successfully!
+13:36:34.327 [main] INFO  testCase.LoginTest - **** Starting VerifyLoginTest *****
+13:36:34.952 [main] INFO  testCase.LoginTest - **** Login page open*****
+13:36:34.991 [main] DEBUG testCase.LoginTest - **** FAIL VerifyRegisterationTest(Debug) ****java.lang.IllegalArgumentException: Keys to send should be a not null CharSequence
+13:39:02.454 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\CODECLOUDS-MDIMRAN\eclipse-workspace\OpenCart0.1\testng.xml"
+13:39:02.853 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\CODECLOUDS-MDIMRAN\eclipse-workspace\OpenCart0.1\testng.xml
+
+13:39:05.070 [main] INFO  testCase.LoginTest - Logger Initialized Successfully!
+13:39:06.053 [main] INFO  testCase.LoginTest - **** Starting VerifyLoginTest *****
+13:39:06.800 [main] INFO  testCase.LoginTest - **** Login page open*****
+13:39:07.088 [main] INFO  testCase.LoginTest - **** Click on logined button *****
+13:39:09.801 [main] DEBUG testCase.LoginTest - **** FAIL VerifyRegisterationTest(Debug) ****org.openqa.selenium.NoSuchSessionException: invalid session id: session deleted as the browser has closed the connection
+from disconnected: unable to send message to renderer
+  (Session info: chrome=142.0.7444.61)
+Build info: version: '4.38.0', revision: '6b412e825c*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [55af31d6cb1d505eb6ea2c88c47474e8, findElement {using=xpath, value=//a[@class='dropdown-item' and contains(text(), 'Logout')]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.61, chrome: {chromedriverVersion: 142.0.7444.175 (302067f14a4..., userDataDir: C:\Users\CODECL~2\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53609}, goog:processID: 16520, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53609/devtoo..., se:cdpVersion: 142.0.7444.61, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 55af31d6cb1d505eb6ea2c88c47474e8
+13:39:22.222 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\CODECLOUDS-MDIMRAN\eclipse-workspace\OpenCart0.1\Master.xml"
+13:39:22.726 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\CODECLOUDS-MDIMRAN\eclipse-workspace\OpenCart0.1\Master.xml
+
+13:39:24.989 [main] INFO  testCase.LoginTest - Logger Initialized Successfully!
+13:39:25.930 [main] INFO  testCase.LoginTest - **** Starting VerifyLoginTest *****
+13:39:26.697 [main] INFO  testCase.LoginTest - **** Login page open*****
+13:39:27.149 [main] INFO  testCase.LoginTest - **** Click on logined button *****
+13:39:37.899 [main] DEBUG testCase.LoginTest - **** FAIL VerifyRegisterationTest(Debug) ****org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=142.0.7444.61)
+Build info: version: '4.38.0', revision: '6b412e825c*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [d62fa1e475041903f3467da754855deb, clickElement {id=f.1972328EF53F6868A1FB54E6F68D2669.d.0EE24D28FDCCF2A354D7B8323166EB1F.e.719}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.61, chrome: {chromedriverVersion: 142.0.7444.175 (302067f14a4..., userDataDir: C:\Users\CODECL~2\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53647}, goog:processID: 24520, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53647/devtoo..., se:cdpVersion: 142.0.7444.61, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (d62fa1e475041903f3467da754855deb)] -> xpath: //a[@class='dropdown-item' and contains(text(), 'Logout')]]
+Session ID: d62fa1e475041903f3467da754855deb
+13:39:39.134 [main] INFO  testCase.RegisterationTest - Logger Initialized Successfully!
+13:39:40.135 [main] INFO  testCase.RegisterationTest - ***** Start VerifyRegisterationTest ****
+13:39:41.122 [main] INFO  testCase.RegisterationTest - ***** Open Registeration Account Page  ****
+13:39:44.894 [main] INFO  testCase.RegisterationTest - ***** Click on sumbit button ****
+13:39:44.895 [main] INFO  testCase.RegisterationTest - ***** Open Sucessfull Account Page  ****
+13:39:46.500 [main] INFO  testCase.LoginDDT - Logger Initialized Successfully!
+13:39:48.046 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+13:39:48.055 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+13:39:48.065 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+13:39:49.365 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+13:39:49.368 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+13:39:49.371 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+13:39:49.440 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+13:39:49.450 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+13:39:49.453 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+13:39:49.536 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+13:39:49.539 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+13:39:49.542 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+13:39:49.634 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+13:39:49.636 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+13:39:49.639 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+13:39:49.688 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+13:39:49.690 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+13:39:49.692 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+13:39:49.739 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+13:39:49.741 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+13:39:49.742 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+13:39:49.786 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+13:39:49.789 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+13:39:49.790 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+13:39:49.825 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+13:39:49.828 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+13:39:49.830 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+13:39:49.867 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+13:39:49.870 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+13:39:49.871 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+13:39:49.913 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+13:39:49.915 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+13:39:49.917 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+13:39:49.954 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+13:39:49.957 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+13:39:49.958 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+13:39:50.002 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+13:39:50.005 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+13:39:50.007 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+13:39:50.044 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+13:39:50.045 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+13:39:50.047 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+13:39:50.085 [main] INFO  testCase.LoginDDT - Test Start
+13:39:50.086 [main] INFO  testCase.LoginDDT - Home Page Open
+13:39:50.918 [main] INFO  testCase.LoginDDT - Login Page Open
+13:39:51.311 [main] INFO  testCase.LoginDDT - Clicked On Login button
+13:39:51.962 [main] INFO  testCase.LoginDDT - Login sucessfull
+13:39:52.517 [main] INFO  testCase.LoginDDT - Clicked On Logout button
+13:39:52.518 [main] INFO  testCase.LoginDDT - Test Completed
+13:39:52.522 [main] INFO  testCase.LoginDDT - Test Start
+13:39:52.523 [main] INFO  testCase.LoginDDT - Home Page Open
+13:39:53.019 [main] INFO  testCase.LoginDDT - Login Page Open
+13:39:53.347 [main] INFO  testCase.LoginDDT - Clicked On Login button
+13:40:13.455 [main] INFO  testCase.LoginDDT - Pass
+13:40:13.456 [main] INFO  testCase.LoginDDT - Test Completed
+13:40:13.458 [main] INFO  testCase.LoginDDT - Test Start
+13:40:13.458 [main] INFO  testCase.LoginDDT - Home Page Open
+13:40:13.905 [main] INFO  testCase.LoginDDT - Login Page Open
+13:40:14.143 [main] INFO  testCase.LoginDDT - Clicked On Login button
+13:40:34.167 [main] INFO  testCase.LoginDDT - Pass
+13:40:34.167 [main] INFO  testCase.LoginDDT - Test Completed
+13:40:34.169 [main] INFO  testCase.LoginDDT - Test Start
+13:40:34.170 [main] INFO  testCase.LoginDDT - Home Page Open
+13:40:34.651 [main] INFO  testCase.LoginDDT - Login Page Open
+13:40:34.945 [main] INFO  testCase.LoginDDT - Clicked On Login button
+13:40:55.045 [main] INFO  testCase.LoginDDT - Pass
+13:40:55.045 [main] INFO  testCase.LoginDDT - Test Completed
+16:26:23.722 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\CODECLOUDS-MDIMRAN\eclipse-workspace\OpenCart0.1\Master.xml"
+16:26:59.659 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\CODECLOUDS-MDIMRAN\eclipse-workspace\OpenCart0.1\Master.xml"
+16:27:43.072 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\CODECLOUDS-MDIMRAN\eclipse-workspace\OpenCart0.1\Master.xml"
+16:28:45.606 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\CODECLOUDS-MDIMRAN\eclipse-workspace\OpenCart0.1\Master.xml"
+16:28:46.342 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\CODECLOUDS-MDIMRAN\eclipse-workspace\OpenCart0.1\Master.xml
+
+16:28:50.249 [main] INFO  testCase.LoginTest - Logger Initialized Successfully!
+16:28:51.800 [main] INFO  testCase.LoginTest - **** Starting VerifyLoginTest *****
+16:28:52.739 [main] INFO  testCase.LoginTest - **** Login page open*****
+16:28:53.272 [main] INFO  testCase.LoginTest - **** Click on logined button *****
+16:29:03.915 [main] DEBUG testCase.LoginTest - **** FAIL VerifyRegisterationTest(Debug) ****org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=142.0.7444.61)
+Build info: version: '4.38.0', revision: '6b412e825c*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [5e857cc67e1e95677432f8de5c0581c4, clickElement {id=f.53B3C756547B3CF3FC26514D0755602F.d.BEDDDE2A7ACF7F7D4E7C732F28ADE186.e.1315}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.61, chrome: {chromedriverVersion: 142.0.7444.175 (302067f14a4..., userDataDir: C:\Users\CODECL~2\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57207}, goog:processID: 10316, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57207/devtoo..., se:cdpVersion: 142.0.7444.61, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (5e857cc67e1e95677432f8de5c0581c4)] -> xpath: //a[@class='dropdown-item' and contains(text(), 'Logout')]]
+Session ID: 5e857cc67e1e95677432f8de5c0581c4
+16:29:06.090 [main] INFO  testCase.RegisterationTest - Logger Initialized Successfully!
+16:29:07.134 [main] INFO  testCase.RegisterationTest - ***** Start VerifyRegisterationTest ****
+16:29:07.959 [main] INFO  testCase.RegisterationTest - ***** Open Registeration Account Page  ****
+16:29:11.950 [main] INFO  testCase.RegisterationTest - ***** Click on sumbit button ****
+16:29:11.950 [main] INFO  testCase.RegisterationTest - ***** Open Sucessfull Account Page  ****
+16:36:06.009 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\CODECLOUDS-MDIMRAN\eclipse-workspace\OpenCart0.1\Master.xml"
+16:36:06.521 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\CODECLOUDS-MDIMRAN\eclipse-workspace\OpenCart0.1\Master.xml
+
+16:36:09.623 [main] INFO  testCase.LoginTest - Logger Initialized Successfully!
+16:36:10.721 [main] INFO  testCase.LoginTest - **** Starting VerifyLoginTest *****
+16:36:11.616 [main] INFO  testCase.LoginTest - **** Login page open*****
+16:36:12.384 [main] INFO  testCase.LoginTest - **** Click on logined button *****
+16:36:23.194 [main] DEBUG testCase.LoginTest - **** FAIL VerifyRegisterationTest(Debug) ****org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=142.0.7444.61)
+Build info: version: '4.38.0', revision: '6b412e825c*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [4250a4a7aa14176bd57bf1072727c627, clickElement {id=f.706C7A196E0AA964B192F30021505F63.d.041F0DFA645572006FAE2D3677C6B50E.e.1277}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.61, chrome: {chromedriverVersion: 142.0.7444.175 (302067f14a4..., userDataDir: C:\Users\CODECL~2\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57532}, goog:processID: 24224, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57532/devtoo..., se:cdpVersion: 142.0.7444.61, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (4250a4a7aa14176bd57bf1072727c627)] -> xpath: //a[@class='dropdown-item' and contains(text(), 'Logout')]]
+Session ID: 4250a4a7aa14176bd57bf1072727c627
+16:36:25.333 [main] INFO  testCase.RegisterationTest - Logger Initialized Successfully!
+16:36:26.332 [main] INFO  testCase.RegisterationTest - ***** Start VerifyRegisterationTest ****
+16:36:27.279 [main] INFO  testCase.RegisterationTest - ***** Open Registeration Account Page  ****
+16:36:27.717 [main] ERROR testCase.RegisterationTest - **** Test FAIL****org.openqa.selenium.NoSuchElementException: Unable to find element with locator By.xpath: //input[@id='input-email']
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.38.0', revision: '6b412e825c*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.1'
+Driver info: driver.version: RemoteWebDriver
+16:36:27.718 [main] DEBUG testCase.RegisterationTest - **** FAIL VerifyRegisterationTest(Debug) ****org.openqa.selenium.NoSuchElementException: Unable to find element with locator By.xpath: //input[@id='input-email']
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.38.0', revision: '6b412e825c*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.1'
+Driver info: driver.version: RemoteWebDriver
+16:37:23.369 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\CODECLOUDS-MDIMRAN\eclipse-workspace\OpenCart0.1\Master.xml"
+16:37:23.924 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\CODECLOUDS-MDIMRAN\eclipse-workspace\OpenCart0.1\Master.xml
+
+16:37:26.669 [main] INFO  testCase.LoginTest - Logger Initialized Successfully!
+16:37:27.721 [main] INFO  testCase.LoginTest - **** Starting VerifyLoginTest *****
+16:37:28.556 [main] INFO  testCase.LoginTest - **** Login page open*****
+16:37:29.082 [main] INFO  testCase.LoginTest - **** Click on logined button *****
+16:37:39.818 [main] DEBUG testCase.LoginTest - **** FAIL VerifyRegisterationTest(Debug) ****org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=142.0.7444.61)
+Build info: version: '4.38.0', revision: '6b412e825c*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [3c7ed4f621fccf99841ed7d660fcd15b, clickElement {id=f.5EF0B80151E4A3FE251F84FEF566F8D5.d.BE16D12BBD7C9E94894E6E2C4CF141AA.e.64}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.61, chrome: {chromedriverVersion: 142.0.7444.175 (302067f14a4..., userDataDir: C:\Users\CODECL~2\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57642}, goog:processID: 11632, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57642/devtoo..., se:cdpVersion: 142.0.7444.61, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (3c7ed4f621fccf99841ed7d660fcd15b)] -> xpath: //a[@class='dropdown-item' and contains(text(), 'Logout')]]
+Session ID: 3c7ed4f621fccf99841ed7d660fcd15b
+16:37:42.092 [main] INFO  testCase.RegisterationTest - Logger Initialized Successfully!
+16:37:43.233 [main] INFO  testCase.RegisterationTest - ***** Start VerifyRegisterationTest ****
+16:37:44.166 [main] INFO  testCase.RegisterationTest - ***** Open Registeration Account Page  ****
+16:37:48.072 [main] INFO  testCase.RegisterationTest - ***** Click on sumbit button ****
+16:37:48.072 [main] INFO  testCase.RegisterationTest - ***** Open Sucessfull Account Page  ****
+16:59:12.562 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\CODECLOUDS-MDIMRAN\eclipse-workspace\OpenCart0.1\Master.xml"
+16:59:13.064 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\CODECLOUDS-MDIMRAN\eclipse-workspace\OpenCart0.1\Master.xml
+
+16:59:16.049 [main] INFO  testCase.LoginTest - Logger Initialized Successfully!
+16:59:17.219 [main] INFO  testCase.LoginTest - **** Starting VerifyLoginTest *****
+16:59:18.094 [main] INFO  testCase.LoginTest - **** Login page open*****
+16:59:18.789 [main] INFO  testCase.LoginTest - **** Click on logined button *****
+16:59:29.583 [main] DEBUG testCase.LoginTest - **** FAIL VerifyRegisterationTest(Debug) ****org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=142.0.7444.61)
+Build info: version: '4.38.0', revision: '6b412e825c*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [6785df6db0ab109316de413a8d8c1ea2, clickElement {id=f.CC7F0F97AE87E96EBABF0F69EF65A29F.d.75926FA6E4FB2A99C872DE583453009A.e.728}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.61, chrome: {chromedriverVersion: 142.0.7444.175 (302067f14a4..., userDataDir: C:\Users\CODECL~2\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58340}, goog:processID: 8044, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58340/devtoo..., se:cdpVersion: 142.0.7444.61, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (6785df6db0ab109316de413a8d8c1ea2)] -> xpath: //a[@class='dropdown-item' and contains(text(), 'Logout')]]
+Session ID: 6785df6db0ab109316de413a8d8c1ea2
+16:59:31.518 [main] INFO  testCase.RegisterationTest - Logger Initialized Successfully!
+16:59:32.612 [main] INFO  testCase.RegisterationTest - ***** Start VerifyRegisterationTest ****
+16:59:33.381 [main] INFO  testCase.RegisterationTest - ***** Open Registeration Account Page  ****
+16:59:37.356 [main] INFO  testCase.RegisterationTest - ***** Click on sumbit button ****
+16:59:37.357 [main] INFO  testCase.RegisterationTest - ***** Open Sucessfull Account Page  ****
+17:00:20.896 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\CODECLOUDS-MDIMRAN\eclipse-workspace\OpenCart0.1\Master.xml"
+17:00:21.445 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\CODECLOUDS-MDIMRAN\eclipse-workspace\OpenCart0.1\Master.xml
+
+17:00:24.273 [main] INFO  testCase.LoginTest - Logger Initialized Successfully!
+17:00:25.443 [main] INFO  testCase.LoginTest - **** Starting VerifyLoginTest *****
+17:00:26.299 [main] INFO  testCase.LoginTest - **** Login page open*****
+17:00:26.897 [main] INFO  testCase.LoginTest - **** Click on logined button *****
+17:00:37.735 [main] DEBUG testCase.LoginTest - **** FAIL VerifyRegisterationTest(Debug) ****org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=142.0.7444.61)
+Build info: version: '4.38.0', revision: '6b412e825c*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [93563d97f9226e45904d6945afb017cc, clickElement {id=f.938849828E2E3B13EA6263D8288C8FC5.d.F2423473AA04638DE9BE316670B7A890.e.1278}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.61, chrome: {chromedriverVersion: 142.0.7444.175 (302067f14a4..., userDataDir: C:\Users\CODECL~2\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58488}, goog:processID: 5384, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58488/devtoo..., se:cdpVersion: 142.0.7444.61, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (93563d97f9226e45904d6945afb017cc)] -> xpath: //a[@class='dropdown-item' and contains(text(), 'Logout')]]
+Session ID: 93563d97f9226e45904d6945afb017cc
+17:00:39.881 [main] INFO  testCase.RegisterationTest - Logger Initialized Successfully!
+17:00:40.931 [main] INFO  testCase.RegisterationTest - ***** Start VerifyRegisterationTest ****
+17:00:41.363 [main] ERROR testCase.RegisterationTest - **** Test FAIL****org.openqa.selenium.NoSuchElementException: Unable to find element with locator By.xpath: //a[@class='dropdown-item' and contains(text(), 'Register')]
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.38.0', revision: '6b412e825c*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.1'
+Driver info: driver.version: RemoteWebDriver
+17:00:41.364 [main] DEBUG testCase.RegisterationTest - **** FAIL VerifyRegisterationTest(Debug) ****org.openqa.selenium.NoSuchElementException: Unable to find element with locator By.xpath: //a[@class='dropdown-item' and contains(text(), 'Register')]
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.38.0', revision: '6b412e825c*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.1'
+Driver info: driver.version: RemoteWebDriver

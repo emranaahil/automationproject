@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+
+
+	<groups>
+		<run>
+			<include name="Master" />
+			<!-- <include name="Master" />
+			<include name="DataDriven" />-->
+
+			<!--<exclude name="Sanity"/> Only use when there is one testmethod use in different browser-->
+
+		</run>
+	</groups>
+	<listeners>
+		<listener class-name="Utilites.ExtentReportManager" />
+	</listeners>
+	<test thread-count="5" name="Test">
+
+		<parameter name="OS" value="Windows"></parameter>
+		<parameter name="Browser" value="Chrome"></parameter>
+		<classes>
+			<class name="testCase.LoginTest" />
+			<!--<class name="testCase.RegisterationTest" />
+			<class name="testCase.LoginDDT" />-->
+		</classes>
+	</test> <!--
+	Test -->
+</suite> <!--
+Suite -->

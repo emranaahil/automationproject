@@ -1,0 +1,248 @@
+17:01:59.738 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\CODECLOUDS-MDIMRAN\eclipse-workspace\OpenCart0.1\Master.xml"
+17:02:00.502 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\CODECLOUDS-MDIMRAN\eclipse-workspace\OpenCart0.1\Master.xml
+
+17:02:03.868 [main] INFO  testCase.LoginTest - Logger Initialized Successfully!
+17:02:05.043 [main] INFO  testCase.LoginTest - **** Starting VerifyLoginTest *****
+17:02:06.050 [main] INFO  testCase.LoginTest - **** Login page open*****
+17:02:06.630 [main] INFO  testCase.LoginTest - **** Click on logined button *****
+17:02:17.428 [main] DEBUG testCase.LoginTest - **** FAIL VerifyRegisterationTest(Debug) ****org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=142.0.7444.61)
+Build info: version: '4.38.0', revision: '6b412e825c*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [971daa7a3dbed166f01cfe5573390c37, clickElement {id=f.A706AC64CF42C8E084A1DCF2341C165C.d.CC2A64E5E265C8B563E5B0B6DC683EAC.e.60}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.61, chrome: {chromedriverVersion: 142.0.7444.175 (302067f14a4..., userDataDir: C:\Users\CODECL~2\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58663}, goog:processID: 25392, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58663/devtoo..., se:cdpVersion: 142.0.7444.61, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (971daa7a3dbed166f01cfe5573390c37)] -> xpath: //a[@class='dropdown-item' and contains(text(), 'Logout')]]
+Session ID: 971daa7a3dbed166f01cfe5573390c37
+17:02:19.491 [main] INFO  testCase.RegisterationTest - Logger Initialized Successfully!
+17:02:20.583 [main] INFO  testCase.RegisterationTest - ***** Start VerifyRegisterationTest ****
+17:02:20.631 [main] ERROR testCase.RegisterationTest - **** Test FAIL****org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=142.0.7444.61)
+Build info: version: '4.38.0', revision: '6b412e825c*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [3f48844b5a873ef8e90897270386f317, findElement {value=//span[@class='d-none d-lg-inline' and contains(text(), 'My Account')], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.61, chrome: {chromedriverVersion: 142.0.7444.175 (302067f14a4..., userDataDir: C:\Users\CODECL~2\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58704}, goog:processID: 10588, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58704/devtoo..., se:cdpVersion: 142.0.7444.61, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 3f48844b5a873ef8e90897270386f317
+17:02:20.632 [main] DEBUG testCase.RegisterationTest - **** FAIL VerifyRegisterationTest(Debug) ****org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=142.0.7444.61)
+Build info: version: '4.38.0', revision: '6b412e825c*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [3f48844b5a873ef8e90897270386f317, findElement {value=//span[@class='d-none d-lg-inline' and contains(text(), 'My Account')], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.61, chrome: {chromedriverVersion: 142.0.7444.175 (302067f14a4..., userDataDir: C:\Users\CODECL~2\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58704}, goog:processID: 10588, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58704/devtoo..., se:cdpVersion: 142.0.7444.61, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 3f48844b5a873ef8e90897270386f317
+17:03:21.376 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\CODECLOUDS-MDIMRAN\eclipse-workspace\OpenCart0.1\Master.xml"
+17:03:21.941 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\CODECLOUDS-MDIMRAN\eclipse-workspace\OpenCart0.1\Master.xml
+
+17:03:25.113 [main] INFO  testCase.LoginTest - Logger Initialized Successfully!
+17:03:26.295 [main] INFO  testCase.LoginTest - **** Starting VerifyLoginTest *****
+17:03:27.179 [main] INFO  testCase.LoginTest - **** Login page open*****
+17:03:27.720 [main] INFO  testCase.LoginTest - **** Click on logined button *****
+17:03:38.416 [main] DEBUG testCase.LoginTest - **** FAIL VerifyRegisterationTest(Debug) ****org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=142.0.7444.61)
+Build info: version: '4.38.0', revision: '6b412e825c*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [71b53cb2c850239e5a9507c943f8b9a6, clickElement {id=f.D42A3A8A544CC877882FA10F1A37A688.d.93A466DFBB46028843A7C3CD27EF0EB5.e.66}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.61, chrome: {chromedriverVersion: 142.0.7444.175 (302067f14a4..., userDataDir: C:\Users\CODECL~2\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58772}, goog:processID: 17588, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58772/devtoo..., se:cdpVersion: 142.0.7444.61, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (71b53cb2c850239e5a9507c943f8b9a6)] -> xpath: //a[@class='dropdown-item' and contains(text(), 'Logout')]]
+Session ID: 71b53cb2c850239e5a9507c943f8b9a6
+17:03:40.552 [main] INFO  testCase.RegisterationTest - Logger Initialized Successfully!
+17:03:41.665 [main] INFO  testCase.RegisterationTest - ***** Start VerifyRegisterationTest ****
+17:03:42.516 [main] INFO  testCase.RegisterationTest - ***** Open Registeration Account Page  ****
+17:03:42.933 [main] ERROR testCase.RegisterationTest - **** Test FAIL****org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=142.0.7444.61)
+Build info: version: '4.38.0', revision: '6b412e825c*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [bc88e8d7f809769e8506385e5ffa5b3a, findElement {value=//input[@id='input-email'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.61, chrome: {chromedriverVersion: 142.0.7444.175 (302067f14a4..., userDataDir: C:\Users\CODECL~2\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58833}, goog:processID: 23716, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58833/devtoo..., se:cdpVersion: 142.0.7444.61, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: bc88e8d7f809769e8506385e5ffa5b3a
+17:03:42.935 [main] DEBUG testCase.RegisterationTest - **** FAIL VerifyRegisterationTest(Debug) ****org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=142.0.7444.61)
+Build info: version: '4.38.0', revision: '6b412e825c*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [bc88e8d7f809769e8506385e5ffa5b3a, findElement {value=//input[@id='input-email'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.61, chrome: {chromedriverVersion: 142.0.7444.175 (302067f14a4..., userDataDir: C:\Users\CODECL~2\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58833}, goog:processID: 23716, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58833/devtoo..., se:cdpVersion: 142.0.7444.61, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: bc88e8d7f809769e8506385e5ffa5b3a
+17:10:30.094 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\CODECLOUDS-MDIMRAN\eclipse-workspace\OpenCart0.1\Master.xml"
+17:10:30.994 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\CODECLOUDS-MDIMRAN\eclipse-workspace\OpenCart0.1\Master.xml
+
+17:10:34.958 [main] INFO  testCase.LoginTest - Logger Initialized Successfully!
+17:10:36.142 [main] INFO  testCase.LoginTest - **** Starting VerifyLoginTest *****
+17:10:37.062 [main] INFO  testCase.LoginTest - **** Login page open*****
+17:10:37.550 [main] INFO  testCase.LoginTest - **** Click on logined button *****
+17:10:48.370 [main] DEBUG testCase.LoginTest - **** FAIL VerifyRegisterationTest(Debug) ****org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=142.0.7444.61)
+Build info: version: '4.38.0', revision: '6b412e825c*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [0d5bdfb585fa17b9e8733a12ac211670, clickElement {id=f.73C0378BA218BF82EEAEBBD809D653ED.d.E021CC020E2B2833B176E80F6CCF5594.e.64}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.61, chrome: {chromedriverVersion: 142.0.7444.175 (302067f14a4..., userDataDir: C:\Users\CODECL~2\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59116}, goog:processID: 24032, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59116/devtoo..., se:cdpVersion: 142.0.7444.61, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (0d5bdfb585fa17b9e8733a12ac211670)] -> xpath: //a[@class='dropdown-item' and contains(text(), 'Logout')]]
+Session ID: 0d5bdfb585fa17b9e8733a12ac211670
+17:10:50.645 [main] INFO  testCase.RegisterationTest - Logger Initialized Successfully!
+17:10:51.809 [main] INFO  testCase.RegisterationTest - ***** Start VerifyRegisterationTest ****
+17:10:52.668 [main] INFO  testCase.RegisterationTest - ***** Open Registeration Account Page  ****
+17:10:56.752 [main] INFO  testCase.RegisterationTest - ***** Click on sumbit button ****
+17:10:56.753 [main] INFO  testCase.RegisterationTest - ***** Open Sucessfull Account Page  ****
+17:15:50.698 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\CODECLOUDS-MDIMRAN\eclipse-workspace\OpenCart0.1\Master.xml"
+17:15:51.264 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\CODECLOUDS-MDIMRAN\eclipse-workspace\OpenCart0.1\Master.xml
+
+17:15:54.253 [main] INFO  testCase.LoginTest - Logger Initialized Successfully!
+17:15:55.368 [main] INFO  testCase.LoginTest - **** Starting VerifyLoginTest *****
+17:15:56.240 [main] INFO  testCase.LoginTest - **** Login page open*****
+17:15:56.739 [main] INFO  testCase.LoginTest - **** Click on logined button *****
+17:16:07.505 [main] DEBUG testCase.LoginTest - **** FAIL VerifyRegisterationTest(Debug) ****org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=142.0.7444.61)
+Build info: version: '4.38.0', revision: '6b412e825c*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [e4cd3ca14414c540768ed7553b7be7f2, clickElement {id=f.E319AF3C46E13FE213CC052ADE5897C4.d.1767E0DC9F63ABD9C9912D4932BC74AA.e.64}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.61, chrome: {chromedriverVersion: 142.0.7444.175 (302067f14a4..., userDataDir: C:\Users\CODECL~2\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59355}, goog:processID: 17728, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59355/devtoo..., se:cdpVersion: 142.0.7444.61, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (e4cd3ca14414c540768ed7553b7be7f2)] -> xpath: //a[@class='dropdown-item' and contains(text(), 'Logout')]]
+Session ID: e4cd3ca14414c540768ed7553b7be7f2
+17:16:09.644 [main] INFO  testCase.RegisterationTest - Logger Initialized Successfully!
+17:16:10.651 [main] INFO  testCase.RegisterationTest - ***** Start VerifyRegisterationTest ****
+17:16:11.463 [main] INFO  testCase.RegisterationTest - ***** Open Registeration Account Page  ****
+17:16:15.372 [main] INFO  testCase.RegisterationTest - ***** Click on sumbit button ****
+17:16:15.372 [main] INFO  testCase.RegisterationTest - ***** Open Sucessfull Account Page  ****
+13:12:55.960 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\CODECLOUDS-MDIMRAN\eclipse-workspace\OpenCart0.1\Master.xml"
+13:12:56.648 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\CODECLOUDS-MDIMRAN\eclipse-workspace\OpenCart0.1\Master.xml
+
+13:13:01.428 [main] INFO  testCase.LoginTest - Logger Initialized Successfully!
+13:13:09.454 [main] INFO  testCase.LoginTest - **** Starting VerifyLoginTest *****
+13:13:10.443 [main] INFO  testCase.LoginTest - **** Login page open*****
+13:13:11.008 [main] INFO  testCase.LoginTest - **** Click on logined button *****
+13:13:22.224 [main] DEBUG testCase.LoginTest - **** FAIL VerifyRegisterationTest(Debug) ****org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=142.0.7444.61)
+Build info: version: '4.38.0', revision: '6b412e825c*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c877e066171d0d7595b45863e6707e48, clickElement {id=f.9BC4BB30AB6E91F9FD1825D8749A7B4B.d.E4B563B05841EAD1E87C6E086B46F3FF.e.1313}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.61, chrome: {chromedriverVersion: 142.0.7444.175 (302067f14a4..., userDataDir: C:\Users\CODECL~2\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54087}, goog:processID: 24640, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54087/devtoo..., se:cdpVersion: 142.0.7444.61, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (c877e066171d0d7595b45863e6707e48)] -> xpath: //a[@class='dropdown-item' and contains(text(), 'Logout')]]
+Session ID: c877e066171d0d7595b45863e6707e48
+13:17:26.400 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\CODECLOUDS-MDIMRAN\eclipse-workspace\OpenCart0.1\testng.xml"
+13:17:41.693 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\CODECLOUDS-MDIMRAN\eclipse-workspace\OpenCart0.1\testng.xml"
+13:18:28.315 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\CODECLOUDS-MDIMRAN\eclipse-workspace\OpenCart0.1\testng.xml"
+13:19:27.436 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\CODECLOUDS-MDIMRAN\eclipse-workspace\OpenCart0.1\testng.xml"
+13:19:46.084 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\CODECLOUDS-MDIMRAN\eclipse-workspace\OpenCart0.1\Master.xml"
+13:19:46.509 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\CODECLOUDS-MDIMRAN\eclipse-workspace\OpenCart0.1\Master.xml
+
+13:19:49.269 [main] INFO  testCase.LoginTest - Logger Initialized Successfully!
+13:19:50.235 [main] INFO  testCase.LoginTest - **** Starting VerifyLoginTest *****
+13:19:51.317 [main] INFO  testCase.LoginTest - **** Login page open*****
+13:19:51.768 [main] INFO  testCase.LoginTest - **** Click on logined button *****
+13:19:53.221 [main] INFO  testCase.LoginTest - **** Click on Logout button *****
+13:20:15.259 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\CODECLOUDS-MDIMRAN\eclipse-workspace\OpenCart0.1\testng.xml"
+13:20:58.870 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\CODECLOUDS-MDIMRAN\eclipse-workspace\OpenCart0.1\testng.xml"
+13:31:28.056 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\CODECLOUDS-MDIMRAN\eclipse-workspace\OpenCart0.1\testng.xml"
+13:31:48.312 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\CODECLOUDS-MDIMRAN\eclipse-workspace\OpenCart0.1\testng.xml"
+13:32:13.447 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\CODECLOUDS-MDIMRAN\eclipse-workspace\OpenCart0.1\testng.xml"
+13:32:13.835 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\CODECLOUDS-MDIMRAN\eclipse-workspace\OpenCart0.1\testng.xml
+
+13:32:16.292 [main] INFO  testCase.LoginTest - Logger Initialized Successfully!
+13:32:17.178 [main] INFO  testCase.LoginTest - **** Starting VerifyLoginTest *****
+13:32:17.904 [main] INFO  testCase.LoginTest - **** Login page open*****
+13:32:18.323 [main] INFO  testCase.LoginTest - **** Click on logined button *****
+13:32:19.529 [main] INFO  testCase.LoginTest - **** Click on Logout button *****
+13:40:59.605 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\CODECLOUDS-MDIMRAN\eclipse-workspace\OpenCart0.1\testng.xml"
+13:41:00.021 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\CODECLOUDS-MDIMRAN\eclipse-workspace\OpenCart0.1\testng.xml
+
+13:44:57.008 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\CODECLOUDS-MDIMRAN\eclipse-workspace\OpenCart0.1\testng.xml"
+13:44:57.585 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\CODECLOUDS-MDIMRAN\eclipse-workspace\OpenCart0.1\testng.xml
+
+13:45:45.890 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\CODECLOUDS-MDIMRAN\eclipse-workspace\OpenCart0.1\testng.xml"
+13:45:46.190 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\CODECLOUDS-MDIMRAN\eclipse-workspace\OpenCart0.1\testng.xml
+
+13:46:18.598 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\CODECLOUDS-MDIMRAN\eclipse-workspace\OpenCart0.1\testng.xml"
+13:46:18.902 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\CODECLOUDS-MDIMRAN\eclipse-workspace\OpenCart0.1\testng.xml
+
+13:47:04.641 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\CODECLOUDS-MDIMRAN\eclipse-workspace\OpenCart0.1\testng.xml"
+13:47:04.939 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\CODECLOUDS-MDIMRAN\eclipse-workspace\OpenCart0.1\testng.xml
+
+13:47:05.288 [main] INFO  testCase.LoginTest - Logger Initialized Successfully!
+13:55:22.941 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\CODECLOUDS-MDIMRAN\eclipse-workspace\OpenCart0.1\testng.xml"
+13:55:23.265 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\CODECLOUDS-MDIMRAN\eclipse-workspace\OpenCart0.1\testng.xml
+
+13:55:25.787 [main] INFO  testCase.LoginTest - Logger Initialized Successfully!
+13:55:26.718 [main] INFO  testCase.LoginTest - **** Starting VerifyLoginTest *****
+13:55:27.648 [main] INFO  testCase.LoginTest - **** Login page open*****
+13:55:28.109 [main] INFO  testCase.LoginTest - **** Click on logined button *****
+13:55:29.261 [main] INFO  testCase.LoginTest - **** Click on Logout button *****
+13:56:20.520 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\CODECLOUDS-MDIMRAN\eclipse-workspace\OpenCart0.1\testng.xml"
+13:56:21.305 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\CODECLOUDS-MDIMRAN\eclipse-workspace\OpenCart0.1\testng.xml
+
+13:56:24.168 [main] INFO  testCase.LoginTest - Logger Initialized Successfully!
+13:56:25.079 [main] INFO  testCase.LoginTest - **** Starting VerifyLoginTest *****
+13:56:25.936 [main] INFO  testCase.LoginTest - **** Login page open*****
+13:56:26.430 [main] INFO  testCase.LoginTest - **** Click on logined button *****
+13:56:27.613 [main] INFO  testCase.LoginTest - **** Click on Logout button *****
+16:01:27.925 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\CODECLOUDS-MDIMRAN\eclipse-workspace\OpenCart0.1\testng.xml"
+16:01:28.299 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\CODECLOUDS-MDIMRAN\eclipse-workspace\OpenCart0.1\testng.xml
+
+16:15:18.024 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\CODECLOUDS-MDIMRAN\eclipse-workspace\OpenCart0.1\testng.xml"
+16:15:23.626 [main] INFO  testCase.LoginTest - Logger Initialized Successfully!
+16:16:06.457 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\CODECLOUDS-MDIMRAN\eclipse-workspace\OpenCart0.1\testng.xml"
+16:16:09.440 [main] INFO  testCase.LoginTest - Logger Initialized Successfully!
+16:16:18.074 [main] INFO  testCase.LoginTest - **** Starting VerifyLoginTest *****
+16:16:19.137 [main] INFO  testCase.LoginTest - **** Login page open*****
+16:16:19.775 [main] INFO  testCase.LoginTest - **** Click on logined button *****
+16:16:20.819 [main] ERROR testCase.LoginTest - **** Test FAIL****org.openqa.selenium.WebDriverException: unknown error: unhandled inspector error: {"code":-32000,"message":"Node with given id does not belong to the document"}
+  (Session info: chrome=142.0.7444.176)
+Build info: version: '4.38.0', revision: '6b412e825c*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [155524371de2c9c850cd4b97591d5fa3, clickElement {id=f.7C1EE813E9D5387AB5C58ED75F3D5CCA.d.87594FDC6361D94B22597BF60E029C45.e.790}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.176, chrome: {chromedriverVersion: 142.0.7444.175 (302067f14a4..., userDataDir: C:\Users\CODECL~2\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53939}, goog:processID: 13260, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53939/devtoo..., se:cdpVersion: 142.0.7444.176, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (155524371de2c9c850cd4b97591d5fa3)] -> xpath: //span[@class='d-none d-lg-inline' and contains(text(), 'My Account')]]
+Session ID: 155524371de2c9c850cd4b97591d5fa3
+16:16:20.821 [main] DEBUG testCase.LoginTest - **** FAIL VerifyRegisterationTest(Debug) ****org.openqa.selenium.WebDriverException: unknown error: unhandled inspector error: {"code":-32000,"message":"Node with given id does not belong to the document"}
+  (Session info: chrome=142.0.7444.176)
+Build info: version: '4.38.0', revision: '6b412e825c*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [155524371de2c9c850cd4b97591d5fa3, clickElement {id=f.7C1EE813E9D5387AB5C58ED75F3D5CCA.d.87594FDC6361D94B22597BF60E029C45.e.790}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.176, chrome: {chromedriverVersion: 142.0.7444.175 (302067f14a4..., userDataDir: C:\Users\CODECL~2\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53939}, goog:processID: 13260, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53939/devtoo..., se:cdpVersion: 142.0.7444.176, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (155524371de2c9c850cd4b97591d5fa3)] -> xpath: //span[@class='d-none d-lg-inline' and contains(text(), 'My Account')]]
+Session ID: 155524371de2c9c850cd4b97591d5fa3
+16:17:22.605 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\CODECLOUDS-MDIMRAN\eclipse-workspace\OpenCart0.1\testng.xml"
+16:17:25.346 [main] INFO  testCase.LoginTest - Logger Initialized Successfully!
+16:17:26.332 [main] INFO  testCase.LoginTest - **** Starting VerifyLoginTest *****
+16:17:27.096 [main] INFO  testCase.LoginTest - **** Login page open*****
+16:17:27.769 [main] INFO  testCase.LoginTest - **** Click on logined button *****
+16:17:28.071 [main] INFO  testCase.LoginTest - **** Click on Logout button *****
+17:40:51.236 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\CODECLOUDS-MDIMRAN\eclipse-workspace\OpenCart0.1\testng.xml"
+17:40:55.378 [main] INFO  testCase.LoginTest - Logger Initialized Successfully!
+17:40:56.299 [main] INFO  testCase.LoginTest - **** Starting VerifyLoginTest *****
+17:40:56.960 [main] INFO  testCase.LoginTest - **** Login page open*****
+17:40:57.505 [main] INFO  testCase.LoginTest - **** Click on logined button *****
+17:40:57.807 [main] INFO  testCase.LoginTest - **** Click on Logout button *****
+17:55:04.627 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\CODECLOUDS-MDIMRAN\eclipse-workspace\OpenCart0.1\testng.xml"
+17:55:07.336 [main] INFO  testCase.LoginTest - Logger Initialized Successfully!
+17:55:08.319 [main] INFO  testCase.LoginTest - **** Starting VerifyLoginTest *****
+17:55:09.376 [main] INFO  testCase.LoginTest - **** Login page open*****
+17:55:09.982 [main] INFO  testCase.LoginTest - **** Click on logined button *****
+17:55:10.284 [main] INFO  testCase.LoginTest - **** Click on Logout button *****
