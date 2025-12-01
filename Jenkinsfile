@@ -48,17 +48,8 @@ pipeline {
             archiveArtifacts artifacts: 'target/*.jar', allowEmptyArchive: true
         }
 
-        // Send an email notification after the build is finished
-        success {
-            mail to: "${EMAIL_RECIPIENTS}",
-                 subject: "Jenkins Build SUCCESS: ${currentBuild.fullDisplayName}",
-                 body: "The Jenkins build was successful. All tests passed!"
-        }
+      
 
-        failure {
-            mail to: "${EMAIL_RECIPIENTS}",
-                 subject: "Jenkins Build FAILED: ${currentBuild.fullDisplayName}",
-                 body: "The Jenkins build failed. Check the logs for details."
-        }
+        
     }
 }
