@@ -43,33 +43,39 @@ pipeline {
 
     // Post-build actions
     post {
-        always {
-            // Archive built JAR artifacts
-            archiveArtifacts artifacts: 'target/*.jar', allowEmptyArchive: true
+    always {
+        // Archive built JAR artifacts
+        archiveArtifacts artifacts: 'target/*.jar', allowEmptyArchive: true
 
-            script {
-                // Find the latest folder in "reports" (Windows compatible)
-                def latestReportDir = bat(
-                    script: '@for /f "delims=" %%i in (\'dir /b /ad /o-d reports\') do @echo %%i & exit /b',
-                    returnStdout: true
-                ).trim()
+        script {
+            // Use Groovy to safely get the latest TestNG report folder
+            def reportsDir = new File("${env.WORKSPACE}/reports")
+            def latestReportDir = ''
+            
+            if (reportsDir.exists() && reportsDir.isDirectory()) {
+                def dirs = reportsDir.listFiles().findAll { it.isDirectory() }
+                if (dirs) {
+                    latestReportDir = dirs.max { it.lastModified() }.name
+                }
+            }
 
+            if (latestReportDir) {
                 echo "Latest TestNG Report Directory: ${latestReportDir}"
 
-                if (latestReportDir) {
-                    // Publish the HTML report from the latest folder
-                    publishHTML([
-                        allowMissing: false,
-                        alwaysLinkToLastBuild: true,
-                        keepAll: true,
-                        reportDir: "reports/${latestReportDir}",
-                        reportFiles: 'emailable-report.html',
-                        reportName: 'TestNG Report'
-                    ])
-                } else {
-                    echo "No TestNG report found to publish."
-                }
+                // Publish HTML report
+                publishHTML([
+                    allowMissing: false,
+                    alwaysLinkToLastBuild: true,
+                    keepAll: true,
+                    reportDir: "reports/${latestReportDir}",
+                    reportFiles: 'emailable-report.html',
+                    reportName: 'TestNG Report'
+                ])
+            } else {
+                echo "No TestNG report found to publish."
             }
         }
     }
+}
+
 }
