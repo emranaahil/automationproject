@@ -42,18 +42,19 @@ pipeline {
     }
 
     // Post-build actions
-  post {
+post {
     always {
         // Archive JAR files
         archiveArtifacts artifacts: 'target/*.jar', allowEmptyArchive: true
 
         // Show TestNG HTML report in Jenkins
         publishHTML([
+            allowMissing: false,
+            alwaysLinkToLastBuild: true,
+            keepAll: true,
             reportDir: 'test-output',
             reportFiles: 'emailable-report.html',
-            reportName: 'TestNG Report',
-            keepAll: true,
-            alwaysLinkToLastBuild: true
+            reportName: 'TestNG Report'
         ])
     }
 }
