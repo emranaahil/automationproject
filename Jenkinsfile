@@ -47,15 +47,23 @@ post {
         // Archive JAR files
         archiveArtifacts artifacts: 'target/*.jar', allowEmptyArchive: true
 
-        // Show TestNG HTML report in Jenkins
-        publishHTML([
-            allowMissing: false,
-            alwaysLinkToLastBuild: true,
-            keepAll: true,
-            reportDir: 'test-output',
-            reportFiles: 'emailable-report.html',
-            reportName: 'TestNG Report'
-        ])
+       script {
+            // Dynamically get the latest timestamped report directory
+            def latestReportDir = bat(
+                script: 'for /f "delims=" %i in (\'dir /b /ad /o-d test-output\') do (echo %i & goto :done) & :done',
+                returnStdout: true
+            ).trim()
+
+            echo "Latest TestNG Report Directory: ${latestReportDir}"
+
+            // Publish the HTML report from the latest directory
+            publishHTML([
+                allowMissing: false,
+                alwaysLinkToLastBuild: true,
+                keepAll: true,
+                reportDir: "test-output/${latestReportDir}",
+                reportFiles: 'emailable-report.html',
+                reportName: 'TestNG Report'
     }
 }
 }
