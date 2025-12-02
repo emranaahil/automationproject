@@ -1,71 +1,32 @@
-pipeline {
-    agent any
-
-    tools {
-        maven 'Maven'
-        jdk 'JDK-17'
-    }
-
-    environment {
-        GITHUB_REPO = 'https://github.com/emranaahil/automationproject'
-        EMAIL_RECIPIENTS = 'youremail@example.com'
-    }
-
-    stages {
-
-        stage('Checkout Code') {
-            steps {
-                git branch: 'master', url: "${GITHUB_REPO}"
-            }
-        }
-
-        stage('Install Dependencies') {
-            steps {
-                bat 'mvn clean install -DskipTests'
-            }
-        }
-
-        stage('Run Tests') {
-            steps {
-                bat 'mvn test'
-            }
-        }
-
-        stage('Publish Test Results') {
-            steps {
-                junit '**/target/surefire-reports/*.xml'
-            }
-        }
-    }
-
-  post {
+post {
     always {
+
         archiveArtifacts artifacts: 'target/*.jar', allowEmptyArchive: true
 
         script {
-            echo "Searching for latest TestNG report folder..."
+            echo "Publishing TestNG report..."
 
-            // FIXED → Windows requires %%i
-            def latestReportDir = bat(
-                script: 'for /f "delims=" %%i in (\'dir /ad /b /o-d reports\') do @echo %%i & exit /b',
-                returnStdout: true
-            ).trim()
+            // TestNG report is located in target/surefire-reports
+            def reportFolder = "target/surefire-reports"
 
-            if (latestReportDir) {
-                echo "Latest TestNG Report Directory: ${latestReportDir}"
+            if (fileExists("${reportFolder}/emailable-report.html")) {
+
+                echo "TestNG Report Found. Publishing..."
 
                 publishHTML([
                     allowMissing: false,
                     alwaysLinkToLastBuild: true,
                     keepAll: true,
-                    reportDir: "reports/${latestReportDir}",
+                    reportDir: reportFolder,
                     reportFiles: 'emailable-report.html',
                     reportName: 'TestNG Report'
                 ])
+
             } else {
-                echo "No TestNG report found to publish."
+                echo "❌ TestNG emailable-report.html not found in ${reportFolder}"
+                echo "Available files:"
+                bat "dir ${reportFolder}"
             }
         }
     }
-}
 }
