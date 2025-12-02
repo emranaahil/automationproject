@@ -44,10 +44,10 @@ pipeline {
     // Post-build actions
 post {
     always {
-        // Archive JAR files
+
         archiveArtifacts artifacts: 'target/*.jar', allowEmptyArchive: true
 
-       script {
+        script {
             // Dynamically get the latest timestamped report directory
             def latestReportDir = bat(
                 script: 'for /f "delims=" %i in (\'dir /b /ad /o-d test-output\') do (echo %i & goto :done) & :done',
@@ -64,6 +64,8 @@ post {
                 reportDir: "test-output/${latestReportDir}",
                 reportFiles: 'emailable-report.html',
                 reportName: 'TestNG Report'
+            ])
+        }
     }
 }
 }
