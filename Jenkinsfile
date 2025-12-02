@@ -33,30 +33,31 @@ node {
     try {
     } finally {
 
+       post {
+    always {
+        // Archive JAR
         archiveArtifacts artifacts: 'target/*.jar', allowEmptyArchive: true
 
-        echo "Searching for latest TestNG report folder..."
+        echo "Publishing TestNG report..."
 
-        def latestReportDir = bat(
-            script: 'for /f "delims=" %i in (\'dir /ad /b /o-d reports\') do @echo %i & exit /b',
-            returnStdout: true
-        ).trim()
+        script {
+            def reportFolder = 'target/surefire-reports'
 
-        if (latestReportDir) {
-            echo "Latest TestNG Report Folder: ${latestReportDir}"
-
-            publishHTML([
-                allowMissing: false,
-                alwaysLinkToLastBuild: true,
-                keepAll: true,
-                reportDir: "reports/${latestReportDir}",
-                reportFiles: 'emailable-report.html',
-                reportName: 'TestNG Report'
-            ])
-
-        } else {
-            echo "❌ No TestNG HTML report found."
-            bat "dir reports"
+            if (fileExists("${reportFolder}/emailable-report.html")) {
+                publishHTML([
+                    allowMissing: false,
+                    alwaysLinkToLastBuild: true,
+                    keepAll: true,
+                    reportDir: reportFolder,
+                    reportFiles: 'emailable-report.html',
+                    reportName: 'TestNG Report'
+                ])
+            } else {
+                echo "❌ TestNG emailable-report.html not found in ${reportFolder}"
+                echo "Available files:"
+                bat "dir ${reportFolder}"
+            }
         }
     }
+}
 }
