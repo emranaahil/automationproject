@@ -47,28 +47,29 @@ pipeline {
             // Archive built JAR artifacts
             archiveArtifacts artifacts: 'target/*.jar', allowEmptyArchive: true
 
-           script {
-    // Find the latest folder in "reports" (Windows compatible)
-    def latestReportDir = bat(
-        script: '@for /f "delims=" %%i in (\'dir /b /ad /o-d reports\') do @echo %%i & exit /b',
-        returnStdout: true
-    ).trim()
+            script {
+                // Find the latest folder in "reports" (Windows compatible)
+                def latestReportDir = bat(
+                    script: '@for /f "delims=" %%i in (\'dir /b /ad /o-d reports\') do @echo %%i & exit /b',
+                    returnStdout: true
+                ).trim()
 
-    echo "Latest TestNG Report Directory: ${latestReportDir}"
+                echo "Latest TestNG Report Directory: ${latestReportDir}"
 
-    // Only publish if folder exists
-    if (latestReportDir) {
-        publishHTML([
-            allowMissing: false,
-            alwaysLinkToLastBuild: true,
-            keepAll: true,
-            reportDir: "reports/${latestReportDir}",
-            reportFiles: 'emailable-report.html',
-            reportName: 'TestNG Report'
-        ])
-    } else {
-        echo "No TestNG report found to publish."
-    }
-}
+                if (latestReportDir) {
+                    // Publish the HTML report from the latest folder
+                    publishHTML([
+                        allowMissing: false,
+                        alwaysLinkToLastBuild: true,
+                        keepAll: true,
+                        reportDir: "reports/${latestReportDir}",
+                        reportFiles: 'emailable-report.html',
+                        reportName: 'TestNG Report'
+                    ])
+                } else {
+                    echo "No TestNG report found to publish."
+                }
+            }
         }
+    }
 }
