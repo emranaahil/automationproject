@@ -22,14 +22,14 @@ pipeline {
         // 2. Install project dependencies (skip tests during installation)
         stage('Install Dependencies') {
             steps {
-                sh 'mvn clean install -DskipTests'
+                bat 'mvn clean install -DskipTests'
             }
         }
 
         // 3. Run the TestNG tests
         stage('Run Tests') {
             steps {
-                sh 'mvn test'
+                bat 'mvn test'
             }
         }
 
@@ -47,9 +47,5 @@ pipeline {
             // Archive any generated artifacts (like JAR files or other outputs)
             archiveArtifacts artifacts: 'target/*.jar', allowEmptyArchive: true
         }
-
-      
-
-        
     }
 }
