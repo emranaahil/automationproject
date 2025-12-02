@@ -42,31 +42,40 @@ pipeline {
     }
 
     // Post-build actions
-post {
-    always {
+    post {
+        always {
+            // Archive built artifacts
+            archiveArtifacts artifacts: 'target/*.jar', allowEmptyArchive: true
 
-        archiveArtifacts artifacts: 'target/*.jar', allowEmptyArchive: true
+            script {
+                // Dynamically get the latest timestamped folder in test-output
+                def latestReportDir = bat(
+                    script: '''
+                        @echo off
+                        setlocal enabledelayedexpansion
+                        set latest=
+                        for /f "delims=" %%i in ('dir /b /ad /o-d test-output') do (
+                            set latest=%%i
+                            goto :found
+                        )
+                        :found
+                        echo !latest!
+                    ''',
+                    returnStdout: true
+                ).trim()
 
-        script {
-            // Dynamically get the latest timestamped report directory
-            def latestReportDir = bat(
-                script: 'for /f "delims=" %i in (\'dir /b /ad /o-d test-output\') do (echo %i & goto :done) & :done',
-                returnStdout: true
-            ).trim()
+                echo "Latest TestNG Report Directory: ${latestReportDir}"
 
-            echo "Latest TestNG Report Directory: ${latestReportDir}"
-
-            // Publish the HTML report from the latest directory
-            publishHTML([
-                allowMissing: false,
-                alwaysLinkToLastBuild: true,
-                keepAll: true,
-                reportDir: "test-output/${latestReportDir}",
-                reportFiles: 'emailable-report.html',
-                reportName: 'TestNG Report'
-            ])
+                // Publish the HTML report from the latest directory
+                publishHTML([
+                    allowMissing: false,
+                    alwaysLinkToLastBuild: true,
+                    keepAll: true,
+                    reportDir: "test-output/${latestReportDir}",
+                    reportFiles: 'emailable-report.html',
+                    reportName: 'TestNG Report'
+                ])
+            }
         }
     }
 }
-}
-
