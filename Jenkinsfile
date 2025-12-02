@@ -47,35 +47,27 @@ pipeline {
             // Archive built JAR artifacts
             archiveArtifacts artifacts: 'target/*.jar', allowEmptyArchive: true
 
-            script {
-                // Dynamically find the latest TestNG report folder
-                def latestReportDir = bat(
-                    script: '''
-                        @echo off
-                        setlocal enabledelayedexpansion
-                        set latest=
-                        for /f "delims=" %%i in ('dir /b /ad /o-d reports') do (
-                            set latest=%%i
-                            goto :found
-                        )
-                        :found
-                        echo !latest!
-                    ''',
-                    returnStdout: true
-                ).trim()
+           script {
+    // Find the latest folder in "reports" (Windows compatible)
+    def latestReportDir = bat(
+        script: '@for /f "delims=" %%i in (\'dir /b /ad /o-d reports\') do @echo %%i & exit /b',
+        returnStdout: true
+    ).trim()
 
-                echo "Latest TestNG Report Directory: ${latestReportDir}"
+    echo "Latest TestNG Report Directory: ${latestReportDir}"
 
-                // Publish the HTML report from the latest folder
-                publishHTML([
-                    allowMissing: false,
-                    alwaysLinkToLastBuild: true,
-                    keepAll: true,
-                    reportDir: "reports/${latestReportDir}",
-                    reportFiles: 'emailable-report.html',
-                    reportName: 'TestNG Report'
-                ])
-            }
-        }
+    // Only publish if folder exists
+    if (latestReportDir) {
+        publishHTML([
+            allowMissing: false,
+            alwaysLinkToLastBuild: true,
+            keepAll: true,
+            reportDir: "reports/${latestReportDir}",
+            reportFiles: 'emailable-report.html',
+            reportName: 'TestNG Report'
+        ])
+    } else {
+        echo "No TestNG report found to publish."
     }
+}
 }
