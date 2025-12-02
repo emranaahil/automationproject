@@ -42,11 +42,11 @@ pipeline {
     }
 
     // Post-build actions
-    post {
-        always {
-            // Archive any generated artifacts (like JAR files or other outputs)
-            archiveArtifacts artifacts: 'target/*.jar', allowEmptyArchive: true
-        }
+  post {
+    always {
+        // Archive JAR files
+        archiveArtifacts artifacts: 'target/*.jar', allowEmptyArchive: true
+
         // Show TestNG HTML report in Jenkins
         publishHTML([
             reportDir: 'test-output',
@@ -57,3 +57,4 @@ pipeline {
         ])
     }
 }
+
