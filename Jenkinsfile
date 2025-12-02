@@ -71,7 +71,7 @@ pipeline {
                     allowMissing: false,
                     alwaysLinkToLastBuild: true,
                     keepAll: true,
-                    reportDir: "test-output/${latestReportDir}",
+                    reportDir: "reports/${latestReportDir}",
                     reportFiles: 'emailable-report.html',
                     reportName: 'TestNG Report'
                 ])
