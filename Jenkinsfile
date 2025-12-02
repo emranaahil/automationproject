@@ -70,4 +70,5 @@ pipeline {
         echo "No TestNG report found to publish."
     }
 }
+        }
 }
