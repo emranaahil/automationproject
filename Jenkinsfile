@@ -38,37 +38,34 @@ pipeline {
         }
     }
 
-    post {
-        always {
+  post {
+    always {
+        archiveArtifacts artifacts: 'target/*.jar', allowEmptyArchive: true
 
-            // Archive JAR
-            archiveArtifacts artifacts: 'target/*.jar', allowEmptyArchive: true
-
+        script {
             echo "Searching for latest TestNG report folder..."
 
-            script {
+            // FIXED → Windows requires %%i
+            def latestReportDir = bat(
+                script: 'for /f "delims=" %%i in (\'dir /ad /b /o-d reports\') do @echo %%i & exit /b',
+                returnStdout: true
+            ).trim()
 
-                // Find the newest directory inside reports/ using a Windows shell command
-                def latestReportDir = bat(
-                    script: 'for /f "delims=" %i in (\'dir /ad /b /o-d reports\') do @echo %i & exit /b',
-                    returnStdout: true
-                ).trim()
+            if (latestReportDir) {
+                echo "Latest TestNG Report Directory: ${latestReportDir}"
 
-                if (latestReportDir) {
-                    echo "Latest TestNG Report Directory: ${latestReportDir}"
-
-                    publishHTML([
-                        allowMissing: false,
-                        alwaysLinkToLastBuild: true,
-                        keepAll: true,
-                        reportDir: "reports/${latestReportDir}",
-                        reportFiles: 'emailable-report.html',
-                        reportName: 'TestNG Report'
-                    ])
-                } else {
-                    echo "No TestNG report found to publish."
-                }
+                publishHTML([
+                    allowMissing: false,
+                    alwaysLinkToLastBuild: true,
+                    keepAll: true,
+                    reportDir: "reports/${latestReportDir}",
+                    reportFiles: 'emailable-report.html',
+                    reportName: 'TestNG Report'
+                ])
+            } else {
+                echo "No TestNG report found to publish."
             }
         }
     }
+}
 }
